@@ -20,3 +20,5 @@ while True: #starting while loop
         print subtract(num1, num2)
     elif operator == '*':
         print multiply(num1, num2)
+    elif operator == '/':
+        print divide(num1, num2)
