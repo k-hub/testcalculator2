@@ -12,7 +12,13 @@ while True: #starting while loop
     output = input.split(' ') #split will 
     if len(output) == 2:
         operator = output[0] #operator will determine what function to use in arithmetic.py
-        num1 = float(output[1]) # input in str, need to convert str to int
+        try:
+            num1 = float(output[1]) # input in str, need to convert str to int
+        except:
+            print "You did not enter an integer. Please enter an integer."
+            continue
+
+
     elif len(output) == 3:
         operator = output[0]
         num1 = float(output[1])
