@@ -32,4 +32,5 @@ while True: #starting while loop
         print cube(num1)
     elif operator == 'pow':
         print power(num1, num2)
-    
+    elif operator == 'mod':
+        print mod(num1, num2)
