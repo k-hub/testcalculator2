@@ -28,3 +28,5 @@ while True: #starting while loop
         print divide(num1, num2)
     elif operator == 'square':
         print square(num1)
+    elif operator == 'cube':
+        print cube(num1)
