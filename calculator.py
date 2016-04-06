@@ -12,11 +12,11 @@ while True: #starting while loop
     output = input.split(' ') #split will 
     if len(output) == 2:
         operator = output[0] #operator will determine what function to use in arithmetic.py
-        num1 = int(output[1]) # input in str, need to convert str to int
+        num1 = float(output[1]) # input in str, need to convert str to int
     elif len(output) == 3:
         operator = output[0]
-        num1 = int(output[1])
-        num2 = int(output[2])
+        num1 = float(output[1])
+        num2 = float(output[2])
     
     if operator == '+':
         print add(num1, num2)
