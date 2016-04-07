@@ -11,7 +11,7 @@ def subtract(listc):
     for i in new_list:
         total -= float(i) 
     return total
-
+    
 
 # def multiply(num1, num2):
 #     return num1 * num2
