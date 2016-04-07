@@ -14,8 +14,8 @@ while True: #starting while loop
     
     if operator == '+':
         print add(user_nums_list[1:])
-    # elif operator == '-':
-    #     print subtract(num1, num2)
+    elif operator == '-':
+        print subtract(user_nums_list[1:])
     # elif operator == '*':
     #     print multiply(num1, num2)
     # elif operator == '/':
