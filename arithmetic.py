@@ -1,5 +1,8 @@
-def add(num1, num2):
-    return num1 + num2
+def add(listc):
+    sum = 0
+    for nums in listc:
+        sum+= nums
+    return sum
 
 
 def subtract(num1, num2):
