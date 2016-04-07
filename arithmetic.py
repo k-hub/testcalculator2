@@ -1,8 +1,8 @@
 def add(listc):
-    sum = 0
+    total = 0
     for nums in listc:
-        sum+= nums
-    return sum
+        total += float(nums)
+    return total
 
 
 def subtract(num1, num2):
